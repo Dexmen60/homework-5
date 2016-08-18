@@ -1,0 +1,174 @@
+/*----------------------------------------------------------------------------------*/
+/*------------------------------RESET DEFAULT STYLES--------------------------------*/
+/*----------------------------------------------------------------------------------*/
+html,body                       { width:100%; height:100%; }
+body                            { padding:0; margin:0; font:14px Tahoma, sans-serif; background:#fff; color:#000; }
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,checkbox,input,textarea {
+	padding:0;
+	margin:0;
+	outline:none;
+	list-style:none;
+}
+select, input, textarea        { font-size:12px; vertical-align:middle; }
+textarea                       { vertical-align:top; }
+:focus                         { outline:none; }
+input[type=submit]             { cursor:pointer; }
+img, fieldset                  { border:0; }
+table                          { border-collapse:collapse; border-spacing:0; }
+a:link, a:visited              { font:12px Tahoma, sans-serif;  }
+a:hover                        { text-decoration:none; }
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------WRAPPER--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+body{
+	background-image: url(../images/background.jpg);
+}
+body h2{
+	font-family: Worldwide Headline ;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 20px;
+}
+body p,li,a{
+	font-family: calibri;
+	font-size: 14px;
+}
+#wrap {
+	padding-top: 17px;
+	width:780px; 
+	min-height: 1120px;
+	margin: 0 auto;  
+	background-color: #FFFFFF; 
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------HEADER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+#header{
+	background-image: url(../images/header.png);
+	width:767px;
+	height:191px;
+	margin: 0px auto ;
+	margin-bottom: 15px;
+}
+
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------NAV------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------CONTENT--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+#content{
+	width: 700px;
+	height: auto;
+	margin: 0px auto ;
+}
+.greeting{
+	color: #DD8AC2;
+	padding: 10px;
+	padding-left: 17px;
+	background-color: #FCF1F7;
+}
+.articles a{
+	display: inline-block;
+	font-family: calibri;
+	font-size: 14px;
+	text-decoration: none;
+	color: blue;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.articles li{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border-bottom: 1px solid #EBF4FB;
+}
+.articles li:last-of-type{
+	border-bottom: none;
+}
+.sections {
+	height: 245px;
+}
+.sections>h2{	
+	color: #669CC9;
+	padding: 10px;
+	padding-left: 17px;
+	background-color: #EBF4FB;
+	margin-bottom: 10px;
+}
+.sections img{
+	display: inline-block;
+	width: 136px;
+	height: 136px;
+    margin-bottom: 10px;
+
+}
+
+.sections a{
+	text-decoration: none;
+	display: inline-block;
+	color: blue;
+}
+.sections li {
+	text-align: center;
+	float: left;
+	width: 136px;
+	margin-right: 7px;
+
+}
+.news {
+	width: 355px;
+	height: 218px;
+	background-color: #EBF4FB;
+	float: left;
+	margin-right: 20px;
+}
+.news ul{
+	color: #666666;
+	margin-left: 17px;
+	margin-bottom: 10px;
+	margin-top: 16px;
+}
+.news>h2{	
+	margin-top: 10px;
+	margin-left: 17px;
+	color: #669CC9;
+}
+.news a{
+	text-decoration: none;
+	color: blue;
+	margin-left: 17px;
+}
+
+.popular_articles{
+	float: left;
+	width: 325px;
+	height: 218px;
+	background-color: #EBF4FB;
+}
+.popular_articles ul{
+	color: #666666;
+	margin-left: 17px;
+	margin-bottom: 10px;
+	margin-top: 16px;
+}
+.popular_articles>h2{	
+	margin-top: 10px;
+	margin-left: 17px;
+	color: #669CC9;
+}
+.popular_articles a{
+	text-decoration: none;
+	color: blue;
+	margin-left: 17px;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------FOOTER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+
