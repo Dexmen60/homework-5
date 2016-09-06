@@ -1,7 +1,7 @@
 /*----------------------------------------------------------------------------------*/
 /*------------------------------RESET DEFAULT STYLES--------------------------------*/
 /*----------------------------------------------------------------------------------*/
-html,body                       { width:100%; height:100%; }
+html,body height:100%; }
 body                            { padding:0; margin:0; font:14px Tahoma, sans-serif; background:#fff; color:#000; }
 div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,checkbox,input,textarea {
 	padding:0;
@@ -36,48 +36,45 @@ body p,li,a{
 /*----------------------------------------------------------------------------------*/
 #wrap {
 	padding-top: 17px;
-	max-width:780px; 
+	width:780px; 
 	margin: 0 auto;  
 	background-color: #FFFFFF; 
 }
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------HEADER---------------------------------------*/
 /*----------------------------------------------------------------------------------*/
-#header {
-	position: relative;
-	max-width:767px;
-	width:100%;
-	height:auto;
-}
-.bgr_img{
-	padding-top: 24.49%;  /* slope */
-	background-size: cover;
 
+#header{
 	background-image: url(../images/header.png);
-	max-width:767px;
-	width:100%;
-	height:auto;
-	margin: 0px auto ;
+	width:771px;
+	height:194px;
+	margin: 0 auto;
 	margin-bottom: 15px;
+
+}
+#header h1{
+	display: inline-block;
+	width:305px;
+	height: 115px;
+	background-image: url(../images/logo.png);
+	margin-top:39px;
+	margin-left: 34px;
 }
 #header a{
-	width: 300px;
-	height: 115px;
-	opacity: 0.0;
-	position: absolute;
 	display: block;
-	font-size: 40px;
-	top:40px;
-	left: 36px;
+	text-indent: -5000px;
+	width:305px;
+	height: 115px;
+
+	
 }
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------CONTENT--------------------------------------*/
 /*----------------------------------------------------------------------------------*/
 #content{
-	max-width:700px;
-	width:100%;
-	height: 880px;
-	margin: auto ;
+	height: auto;
+	padding: 0 45px;
+		overflow: hidden;
 }
 h2{
 	color: #DD8AC2;
@@ -91,91 +88,65 @@ h2{
 	font-size: 14px;
 	text-decoration: none;
 	color: #649BC8;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin: 10px 0 10px 0;
 }
 .articles li{
-	margin-bottom: 10px;
-	margin-top: 10px;
+	margin: 10px 0 10px 0;
 	border-bottom: 1px solid #EBF4FB;
 }
 .articles li:last-of-type{
 	border-bottom: none;
 }
-.sections {
-	display: inline-block;
-	max-width:700px;
-	width:100%;
-	height: auto;
-	margin-bottom: 30px;
-}
-.sections>h3{	
+
+h3{	
 	color: #669CC9;
 	padding: 10px;
 	padding-left: 17px;
 	background-color: #EBF4FB;
 	margin-bottom: 10px;
 }
-.sections img{
-	display: inline-block;
-	max-width:136px;
-	width: 100%;
+ table {
+	width: 570px;
 	height: auto;
-	margin-bottom: 10px;
+	margin-bottom: 17px;
 }
-.sections a{
+ table img{
+	display: inline-block;
+	width:136px;
+	height: auto;
+	margin-bottom: 3px;
+}
+td a{
 	text-decoration: none;
 	display: inline-block;
 	color: #649BC8;
-}
-.sections table {
-	max-width: 700px;
-	width: 100%;
-	height: auto;
-
-}
-.sections td {
 	text-align: center;
-	float: left;
-	max-width: 136px;
-	width: 20%;
-	margin-right: 7px;
+	width: 136px;
 }
 .news {
-	max-width: 355px;
-	width: 100%;
+	width: 355px;
 	height: 218px;
 	background-color: #EBF4FB;
 	float: left;
 	margin-right: 20px;
 }
-.news ul{
+.popular_articles ul, .news ul{
 	color: #666666;
-	margin-left: 17px;
-	margin-bottom: 10px;
-	margin-top: 16px;
+	margin: 16px 0 10px 17px;
 }
 .news li,.popular_articles li{
 	font-size: 13px;
 	margin-bottom: 2px;
 }
-.news>h4,.popular_articles>h4{	
-	margin-top: 10px;
-	margin-left: 17px;
+.news>h4,.popular_articles>h4{
+	margin: 10px 0 0 17px;	
 	color: #669CC9;
 }
 .popular_articles{
 	float: left;
-	max-width: 325px;
-	width: 100%;
+	width: 315px;
 	height: 218px;
 	background-color: #EBF4FB;
-}
-.popular_articles ul{
-	color: #666666;
-	margin-left: 17px;
-	margin-bottom: 10px;
-	margin-top: 16px;
 }
 .popular_articles a, .news a{
 	text-decoration: none;
@@ -186,9 +157,9 @@ h2{
 /*-------------------------------------FOOTER---------------------------------------*/
 /*----------------------------------------------------------------------------------*/
 #footer{
+	overflow: hidden;
 	text-align: center; 
-	max-width: 700px;
-	width: 100%;
+	width: 700px;
 	height: auto;
 	margin: 0px auto ;
 }
@@ -212,71 +183,4 @@ h2{
 #footer li{
 	margin-right: 10px;
 	float: left;
-}
-/*----------------------------------------------------------------------------------*/
-/*-------------------------------------@media---------------------------------------*/
-/*----------------------------------------------------------------------------------*/
-@media  (max-width: 360px){
-	#content{
-		display: inline-block;
-		height: auto;
-	}
-	.articles {
-		margin-left: 10px;
-	}
-	.popular_articles{
-		max-width: 360px;
-		margin-top: 10px;
-	}
-	#footer {
-		text-align: left;
-		display: inline-block;
-	}
-	#footer p{
-		max-width: 700px;
-		margin-left: 10px;
-		margin-right: 10px;
-		text-align: center;
-		float: left;
-	}
-	#footer li{
-		margin-left: 10px;
-		margin-top: 3px;
-		float: none;
-	}
-}
-/*----------------------------------------------------------------------------------*/
-/*-------------------------------------@media---------------------------------------*/
-/*----------------------------------------------------------------------------------*/
-@media  (max-width: 750px){
-	.articles {
-		margin-left: 10px;
-		margin-right: 10px;
-	}
-	.popular_articles{
-		max-width: 700px;
-		width: 100%;
-		height: 218px;
-		margin-bottom: 10px;
-	}
-	.news{
-		max-width: 700px;
-		width: 100%;
-		height: 218px;
-		margin-bottom: 10px;		
-	}
-
-	#footer {
-		text-align: left;
-	}
-	#footer p{
-		margin-left: 10px;
-		margin-right: 10px;
-		text-align: center;
-	}
-	#footer li{
-		margin-left: 10px;
-		margin-top: 3px;
-		float: none;
-	}
 }
